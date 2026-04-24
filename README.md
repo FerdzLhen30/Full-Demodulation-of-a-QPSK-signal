@@ -24,13 +24,14 @@ Quadrature Phase Shift Keying (QPSK) is a digital modulation technique that maps
 
 QPSK is conceptually derived from Binary Phase Shift Keying (BPSK). While BPSK transmits one bit per symbol, QPSK transmits two bits simultaneously by using orthogonal carrier components. This does not inherently increase raw bit speed; instead, it reduces the symbol rate and improves **spectral efficiency**, allowing better bandwidth utilization in communication systems.
 
-![QPSK Modulation Model](Diagrams/fig1.jpeg)
+<img width="963" height="762" alt="image" src="https://github.com/user-attachments/assets/693d42ea-eab1-48c6-9243-efc6a151d0c9" />
 
 *Figure A: Mathematical block representation of QPSK modulation.*
 
 At the transmitter, the serial data stream is divided into alternating bits. One stream modulates the cosine carrier (In‑phase), while the other modulates a sine carrier shifted by 90° (Quadrature). These orthogonal components share the same frequency band but remain separable due to phase orthogonality.
 
-![QPSK Demodulation Model](Diagrams/fig2.jpeg)
+<img width="950" height="390" alt="image" src="https://github.com/user-attachments/assets/57e5c50f-0976-4c40-a312-d312e65f969b" />
+
 
 *Figure B: Mathematical block representation of QPSK demodulation.*
 
